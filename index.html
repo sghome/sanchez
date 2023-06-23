@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:200,300,400" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rochester" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+        <title>Sanchez Cigar</title>
+    </head>
+    
+    
+    <body>
+    
+
+         
+    
+     
+    
+    <div class="fog-container">
+     
+      <div class="fog-img fog-img-first"></div>
+      <div class="fog-img fog-img-second"></div>
+    </div>
+
+
+     
+        <section class="content">
+            <nav class="nav">
+                <ul class="nav__menu nav__center">
+                    
+                </ul>
+
+                <div class="nav__left">
+                    <a href ="#"><img src="img/logo.svg" alt="Lavender Boutique logo" class="nav__logo"></a>
+                </div>
+
+                <div class="nav__right">
+                    <div class="nav__icon menu">
+                        <div class="menu-bar"></div>
+                        <div class="menu-bar"></div>
+                        <div class="menu-bar"></div>
+                    </div>
+                    <div class="nav__icon search">
+                        <svg class="search__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                            <path d="M89.207 94.156L65.452 70.402c-6.508 5.374-14.68 8.318-23.17 8.318-9.734 0-18.884-3.79-25.765-10.673C9.635 61.165 5.844 52.015 5.844 42.282S9.634 23.4 16.518 16.517c6.88-6.882 16.03-10.673 25.764-10.673s18.885 3.79 25.768 10.672c13.313 13.314 14.238 34.542 2.353 48.936l23.755 23.755-4.95 4.95zM42.28 12.844c-7.86 0-15.253 3.062-20.813 8.622-5.56 5.56-8.623 12.953-8.623 20.816s3.063 15.255 8.623 20.816c5.56 5.56 12.953 8.622 20.814 8.622 7.863 0 15.257-3.063 20.82-8.623 11.475-11.477 11.475-30.153 0-41.63-5.563-5.56-12.956-8.623-20.82-8.623z">
+                            </path>
+                        </svg>
+                        <div class="search__box" id="search__box">
+                            <form action="#" class="search__form">
+                                <input class="search__input" type="text" name="search" placeholder="What are you looking for?" value="" autocomplete="off">
+                                <button class="search__btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="search__icon">
+                                        <path d="M89.207 94.156L65.452 70.402c-6.508 5.374-14.68 8.318-23.17 8.318-9.734 0-18.884-3.79-25.765-10.673C9.635 61.165 5.844 52.015 5.844 42.282S9.634 23.4 16.518 16.517c6.88-6.882 16.03-10.673 25.764-10.673s18.885 3.79 25.768 10.672c13.313 13.314 14.238 34.542 2.353 48.936l23.755 23.755-4.95 4.95zM42.28 12.844c-7.86 0-15.253 3.062-20.813 8.622-5.56 5.56-8.623 12.953-8.623 20.816s3.063 15.255 8.623 20.816c5.56 5.56 12.953 8.622 20.814 8.622 7.863 0 15.257-3.063 20.82-8.623 11.475-11.477 11.475-30.153 0-41.63-5.563-5.56-12.956-8.623-20.82-8.623z"></path>
+                                    </svg>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="nav__icon login">
+                        <svg class="login__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                            <path d="M39.532 27.33C42.254 25.126 44 21.764 44 18c0-6.617-5.383-12-12-12s-12 5.383-12 12c0 3.765 1.747 7.127 4.468 9.33C16.036 30.41 10 38.513 10 48v8c0 1.104.896 2 2 2s2-.896 2-2v-8c0-9.925 8.075-18 18-18s18 8.075 18 18v8c0 1.104.896 2 2 2s2-.896 2-2v-8c0-9.486-6.035-17.59-14.468-20.67zM24 18c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8-8-3.59-8-8z">
+                            </path>
+                        </svg>
+                        <div class="login__box">
+                            <div class="error text"><p></p></div>
+                            <form method="post" id="form__login">
+                                <div class="login__item">
+                                    <label>E-mail</label>
+                                    <input type="text" name="email" required="">
+                                </div>
+                                <div class="login__item">
+                                    <label>Password</label>
+                                    <input type="password" name="password" required="">
+                                    <a href="#" class="login__forgot">Forgot your password?</a>
+                                </div>
+                                <div class="login__item">
+                                    <button class="login__btn btn btn-full">Sign in</button>
+                                </div>
+                            </form>
+                            
+                            <div class="login__sign-up">
+                                 <a href="#" class="login__link">Don't have an account? &nbsp; → &nbsp; <span class = "login__btn-outline btn btn-outline">Sign up</span></a>
+                            </div>
+                        </div>
+                    </div>        
+                    <div class="nav__icon cart">
+                        <a class = "cart__link" href="#">
+                            <svg class="cart__svg" viewBox="0 0 21 25" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.17 5.277c-.006-.15-.13-.27-.28-.27h-4.65v-.2C15.24 2.158 13.083 0 10.43 0h-.275C7.507 0 5.35 2.157 5.35 4.808v.198H1.11c-.15 0-.274.12-.28.27L0 24.067c-.002.076.025.152.078.206.053.056.127.087.203.087h20.44c.076 0 .15-.03.202-.086.052-.054.08-.13.078-.206l-.83-18.79zm-14.258-.47c0-2.34 1.904-4.245 4.245-4.245h.275c2.34 0 4.246 1.905 4.246 4.246v.198H5.912v-.198zM.574 23.8L1.38 5.57h3.97v3.485h-.417c-.155 0-.28.126-.28.28 0 .156.125.28.28.28H6.33c.154 0 .28-.125.28-.28 0-.156-.126-.28-.28-.28h-.418V5.57h8.766v3.485h-.418c-.154 0-.28.126-.28.28 0 .156.126.28.28.28h1.397c.155 0 .28-.125.28-.28 0-.156-.125-.28-.28-.28h-.418V5.57h4.38l.807 18.23H.574z">
+                                </path>
+                            </svg>
+                            <span id="shopping_items" class="cart__number">0</span>
+                            <div class="cart__notification">
+                                Your cart is currently empty!
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+            
+            
+             
+               
+               
+            <header class="header">
+                <div class="header__back"></div>
+               
+                <div class="header__textbox">
+                    <h1 class="heading-primary header__textbox-content header__middle-2"> <img src="img/logo.svg" alt="" "><span class="heading-tertiary"></span></h1>
+                    <h2 class="heading-secondary heading-bold header__textbox-content header__middle-2">Our carefully crafted cigars are works of good taste</h2>
+                </div>    
+                <div class="header__fore"></div>
+                <div class="header__shade header__middle-1"></div>
+                <div class="header__flower">
+                    <img src="img/flower.svg" alt="flying flower" class="header__flower-svg">
+                </div>
+            </header>
+
+            <section class="section-about">
+                <h2 class="heading-secondary u-margin-top-medium">About Us</h2> 
+                <p class="paragraph u-margin-top-small"> 
+                    We are proud to offer you cigars of the highest quality, grown and harvested in the fertile lands of Nicaragua, where climate and tradition come together to create a unique experience with each smoke.
+
+Every time you light one of our cigars, you are immersed in a world of captivating flavors and aromas, enjoying moments of relaxation and delight. Each puff gives you the opportunity to appreciate the art of tobacco culture, connecting you with centuries of tradition and artisanal perfection.
+                </p>
+                <div class="scope u-margin-top-big">
+                    <div class="scope__overlay"></div>
+                    <div class="scope__label">
+                        <p class="heading-tertiary scope__text scope__text-1">Our Selected Tobaccos<p>
+                        <p class="scope__text scope__text-2">Crafted in Nicaragua </p>
+                        <a class = "btn btn-full scope__btn u-margin-top-small" href = "https://api.whatsapp.com/send/?phone=%2B17867571595&text=I+am+interested+in+your+Tobacos&type=phone_number&app_absent=0">More !</a>
+                    </div>
+                </div>   
+            </section>
+
+
+            <section class="section-new">
+                <div>
+                    <h2 class="heading-secondary">Collection List</h2>
+                    <p class="paragraph"> 
+                        With our cigars, we invite you to elevate your moments of contemplation and celebration. Allow yourself to savor excellence, letting the magic of smoke envelop your senses and transport you to a place where authenticity merges with passion.
+                    </p>
+                </div>
+                <div class="grid u-margin-top-medium">
+                    <div class="col-1-of-4 grid-item">
+                        <figure class="grid-figure">
+                            <img src="img/collection/7.png" alt="Mesh Yoke Ruffle Detail Dress.jpg">
+                            <a href="https://api.whatsapp.com/send/?phone=%2B17867571595&text=I+am+interested+in+Tobaco+La+Aurora&type=phone_number&app_absent=0">
+                            <figcaption class="pricetag">TOBACO LA AURORA - <span class="price">$45</span> 
+                            </figcaption> 
+                        </figure>
+                    </div>    
+                    <div class="col-1-of-4 grid-item">
+                        <figure class="grid-figure">
+                            <img src="img/collection/6.png" alt="Flutter Sleeve Solid Ruffle Dress">
+                            <a href="https://api.whatsapp.com/send/?phone=%2B17867571595&text=I+am+interested+in+Tobaco+El+Cantor+Rojo&type=phone_number&app_absent=0">
+                            <figcaption class="pricetag">TOBACO EL CANTOR ROJO - <span class="price">$85</span></figcaption> 
+                        </figure>
+                    </div>    
+                   
+                    <div class="col-1-of-4 grid-item">
+                        <figure class="grid-figure">
+                            <img src="img/collection/8.png" alt="Soft Cotton Blouse">
+                            <a href="https://api.whatsapp.com/send/?phone=%2B17867571595&text=I+am+interested+in+Tobaco+La+Aurora&type=phone_number&app_absent=0">
+                            <figcaption class="pricetag">TOBACO LA AURORA - <span class="price">$45</span></figcaption> 
+                        </figure>
+                    </div>    
+                  
+
+
+                    <div class="col-1-of-4 grid-item">
+                        <figure class="grid-figure">
+                            <img src="img/collection/2.png" alt="Scalloped Cape Top">
+                            <a href="https://api.whatsapp.com/send/?phone=%2B17867571595&text=I+am+interested+in+Tobaco+El+Balsero&type=phone_number&app_absent=0">
+                            <figcaption class="pricetag">EL BALSERO TOBACO - <span class="price">$50</span></figcaption> 
+                        </figure>
+                        </div>    
+                    <div class="col-1-of-4 grid-item">
+                        <figure class="grid-figure">
+                            <img src="img/collection/3.png" alt="Band Waist Maxi Skirt">
+                            <a href="https://api.whatsapp.com/send/?phone=%2B17867571595&text=I+am+interested+in+Tobaco+El+Cantor+Rojo&type=phone_number&app_absent=0">
+                            <figcaption class="pricetag">TOBACO EL CANTOR ROJO - <span class="price">$60</span></figcaption> 
+                        </figure>
+                    </div>    
+                    <div class="col-1-of-4 grid-item">
+                        <figure class="grid-figure">
+                            <img src="img/collection/4.png" alt="Layered Petal Sleeve V-Neck Dress">
+                            <a href="https://api.whatsapp.com/send/?phone=%2B17867571595&text=I+am+interested+in+Tobaco+Don+Yayo&type=phone_number&app_absent=0">
+                            <figcaption class="pricetag">TOBACO DON YAYO - <span class="price">$60</span></figcaption> 
+                        </figure>
+                    </div>    
+
+
+ <div class="col-1-of-4 grid-item">
+                        <figure class="grid-figure">
+                            <img src="img/collection/1.png" alt="Band Waist Maxi Skirt">
+                            <a href="https://api.whatsapp.com/send/?phone=%2B17867571595&text=I+am+interested+in+Tobaco+Don+Yayo&type=phone_number&app_absent=0">
+                            <figcaption class="pricetag">DON YAYO TOBACO - <span class="price">$60</span></figcaption> 
+                        </figure>
+                    </div> 
+
+
+                     <div class="col-1-of-4 grid-item">
+                        <figure class="grid-figure">
+                            <img src="img/collection/5.png" alt="Band Waist Maxi Skirt">
+                            <a href="https://api.whatsapp.com/send/?phone=%2B17867571595&text=I+am+interested+in+Tobaco+El+Balsero&type=phone_number&app_absent=0">
+                            <figcaption class="pricetag">TOBACO EL BALSERO - <span class="price">$85</span></figcaption> 
+                        </figure>
+                    </div> 
+
+
+
+                    </div>
+                    <div class="grid">
+                        <a class = "btn btn-outline u-margin-top-small" href = "#">More</a>
+                    </div>
+                    
+                </div>   
+                <div class="decor-left">
+                    <img src="img/lavender-left.svg" alt="">
+                </div> 
+            </section>
+
+            
+           
+            <section class="section-best">
+                <h2 class="heading-secondary">Dealers</h2 grid-item>
+
+                <div class="grid u-margin-top-medium">
+                      <div class="col-1-of-4 grid-item">
+                        <figure class="grid-figure">
+                            <img src="img/collection/a.png" alt="Layered Petal Sleeve V-Neck Dress">
+                            <figcaption class="pricetag">HABANITOS - <span class="price"> </span></figcaption> 
+                        </figure>
+                    </div>
+
+
+                   <div class="col-1-of-4 grid-item">
+                        <figure class="grid-figure">
+                            <img src="img/collection/b.png" alt="Scalloped Cape Top">
+                            <figcaption class="pricetag">LA AURORA- <span class="price"> </span></figcaption> 
+                        </figure>
+                        </div>  
+
+
+                    <div class="col-1-of-4 grid-item">
+                        <figure class="grid-figure">
+                            <img src="img/collection/c.png" alt="Mesh Yoke Ruffle Detail Dress.jpg">
+                            <figcaption class="pricetag">CHEVÉRE - <span class="price"> </span></figcaption> 
+                        </figure>
+                    </div>
+
+
+                    <div class="col-1-of-4 grid-item">
+                        <figure class="grid-figure">
+                            <img src="img/collection/d.png" alt="Band Waist Maxi Skirt">
+                            <figcaption class="pricetag">TATIANA - <span class="price"> </span></figcaption> 
+                        </figure>
+                    </div>   
+
+
+                    
+
+
+                </div>
+                <a class = "btn btn-outline u-margin-top-small" href = "#">More</a>
+                <div class="decor-right">
+                    <img src="img/lavender-right.svg" alt="">
+                </div> 
+            </section>
+            
+            <section class="section-collections">
+                <h2 class="heading-secondary">Selected Collection</h2>
+               
+                <div class="grid u-margin-top-small">
+                    <div class="col-1-of-4 card">
+                        <div class="card__wrapper">
+                            <h3 class="card__title">DON YAYO</h3>
+                            <img src="img/collection/1.png" alt="Spring Collection">
+                            <p class="card__description">These cigars are definitely not the prettiest cigars around but they sure taste good and provide a nice smooth medium smoke. Combined with a really cheap price this cigar is a no brainier when it comes to price quality and taste. It kinda reminds of a cigar I'd see my uncle smoke with a pleasant aroma.</p>
+                        </div>
+                    </div>
+                    <div class="col-1-of-4 card">
+                        <div class="card__wrapper">
+                            <h3 class="card__title">EL BALSERO</h3>
+                            <img src="img/collection/2.png" alt="Summer Collection">
+                            <p class="card__description">“The Rafter”, celebrate the brave risk takers who, determined to escape persecution, seek freedom and opportunity in the greatest country in the world! El Basero cigars pay homage to the journey many Cubans take to get a chance at achieving the American dream.</p>
+                        </div>       
+                    </div>    
+                    <div class="col-1-of-4 card">
+                        <div class="card__wrapper">
+                            <h3 class="card__title">EL CANTOR ROJO</h3>
+                            <img src="img/collection/3.png" alt="Fall Collection">
+                            <p class="card__description">It is a truly excellent flavored fully aged cigar that has a distinctive taste. Completely handcrafted from select aged tobaccos. El Cantor Corojo has tobaccos that are grown in the Valley of Nicaragua, a region where the perfect soil and the ideal climate can give the cigar the delicious flavor.</p>
+                        </div>     
+                    </div>     
+                    <div class="col-1-of-4 card">
+                        <div class="card__wrapper">
+                            <h3 class="card__title">LA AURORA</h3>
+                            <img src="img/collection/7.png" alt="Winter Collection">
+                            <p class="card__description">Respected since its introduction in 1903, the La Aurora brand is a medium-bodied cigar offering a unique blend of Dominican fillers and...Respected since its introduction in 1903, the La Aurora brand is a medium-bodied cigar offering a unique blend of Dominican fillers and binder.</p>
+                        </div>  
+                    </div>   
+                    
+                </div>
+                <a class = "btn btn-outline u-margin-top-small" href = "#">More</a>                                
+            </section>
+
+      
+         
+         
+
+        <footer class= "footer">
+            <div class="grid">
+                <div class="col-1-of-5 footer__help">
+                    <div class="heading-tiny">HELP</div>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Customer service</a></li>
+                        <li><a href="#">Transport &amp; Parcels</a></li>
+                        <li><a href="#">Find a store</a></li>
+                    </ul>
+                </div>    
+                <div class="col-1-of-5 footer__social">
+                    <div class="heading-tiny">Our social networks</div>
+                    <ul>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="https://instagram.com/sanchezcigar">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="col-3-of-5 footer__signup">
+                    <p>
+                        Subscribe to our news: register now and be among the first to find out about news about our cigars.
+                    </p>
+                    <a href="#" class="btn btn-full">sign up</a>    
+                </div>
+            </div>
+            <a href ="#"><img src="img/logo.svg" alt="Lavender Boutique logo" class="footer__logo"></a>
+            <div class="footer__copyright">
+                <p>Illustration, web design and development by Sergio G.</p>
+                <p>Copyright &copy; 2022 by Sergio G. All rights reserved.</p>
+                
+            </div>
+        </footer>
+
+
+
+
+
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+    
+</html>
