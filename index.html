@@ -8,6 +8,26 @@
         <link href="https://fonts.googleapis.com/css?family=Rochester" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+
+  <script>
+    $(document).ready(function() {
+      var minAge = $('select').val();
+      $('select').on('change', function() {
+        minAge = $(this).val();
+      });
+      $('button').on('click', function() {
+        sessionStorage.clear();
+        $.ageCheck({
+          minAge: minAge
+        });
+      });
+      $.ageCheck({
+        minAge: minAge
+      });
+    });
+  </script>
+
         
         <title>Sanchez Cigar</title>
     </head>
